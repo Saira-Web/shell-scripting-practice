@@ -24,6 +24,12 @@ echo "You have selected 'Substraction'"
 "Exit Calculator")
 echo "You have selected 'Exit Calculator'"
 ;;
+*)
+echo "Sorry, this operation is not supported: $selection"
+echo "Please try again!"
+;;
 esac
 # If the selection does not match a supported operation, display an error message.
+
+esac
 # When the operation is complete, redisplay the menu.
