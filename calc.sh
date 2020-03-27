@@ -14,5 +14,10 @@ echo " Please select one of the following arithmetic operators."
 read selection
 
 # If the selection matches a supported operation, execute the operation.
+case $selection in
+"Addition")
+echo "You have selected 'Addition'"
+;;
+esac
 # If the selection does not match a supported operation, display an error message.
 # When the operation is complete, redisplay the menu.
