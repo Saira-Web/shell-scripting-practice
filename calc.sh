@@ -3,6 +3,7 @@
 # When the program is first loaded, display a greeting to the user.
 echo "Hello, Welcome to our interactive calculator program."
 # Then, display a menu that outlines the possible operations:
+echo " Please select one of the following arithmetic operators."
   # Add
   # Subtract
   # Exit
