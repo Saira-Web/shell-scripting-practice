@@ -27,6 +27,12 @@ expr $first_number + $second_number
 ;;
 "Substraction")
 echo "You have selected 'Substraction'"
+echo "Please provide the first number:"
+read first_number
+echo "Please provide the second number:"
+read second_number
+echo "The difference of $first_number and $second_number is:"
+expr $first_number - $second_number
 ;;
 "Exit Calculator")
 echo "You have selected 'Exit Calculator'"
