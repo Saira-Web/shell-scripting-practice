@@ -18,6 +18,9 @@ case $selection in
 "Addition")
 echo "You have selected 'Addition'"
 ;;
+"Substraction")
+echo "You have selected 'Substraction'"
+;;
 esac
 # If the selection does not match a supported operation, display an error message.
 # When the operation is complete, redisplay the menu.
