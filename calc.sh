@@ -18,6 +18,12 @@ case $selection in
 # If the selection matches a supported operation, execute the operation.
 "Addition")
 echo "You have selected 'Addition'"
+echo "Please provide the first number:"
+read first_number
+echo "Please provide the second number:"
+read second_number
+echo "The sum of $first_number and $second_number is:"
+expr $first_number + $second_number
 ;;
 "Substraction")
 echo "You have selected 'Substraction'"
@@ -32,6 +38,4 @@ echo "Please try again!"
 ;;
 esac
 
-
-esac
 # When the operation is complete, redisplay the menu.
