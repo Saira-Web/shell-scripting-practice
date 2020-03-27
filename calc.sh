@@ -14,8 +14,6 @@ while true; do
     echo "Exit Calculator"
   # Then, capture the user selection.
   read selection
-
-
   case $selection in
   # If the selection matches a supported operation, execute the operation.
   "Addition")
