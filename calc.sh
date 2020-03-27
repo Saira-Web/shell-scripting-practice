@@ -43,7 +43,7 @@ while true; do
   echo "Please provide the second number:"
   read second_number
   echo "The product of $first_number and $second_number is:"
-  expr $first_number * $second_number
+  expr $first_number \* $second_number
   ;;
   "Exit Calculator")
   echo "You have selected 'Exit Calculator'"
