@@ -1,5 +1,5 @@
 #! /usr/bin/env bash
-
+# An interactive calculator program
 # When the program is first loaded, display a greeting to the user.
 # Then, display a menu that outlines the possible operations:
   # Add
