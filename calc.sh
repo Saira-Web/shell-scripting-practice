@@ -10,6 +10,8 @@ while true; do
     echo "Addition"
     # Subtract
     echo "Substraction"
+    # Multiplication
+    echo "Multiplication"
     # Exit
     echo "Exit Calculator"
   # Then, capture the user selection.
@@ -33,6 +35,15 @@ while true; do
   read second_number
   echo "The difference of $first_number and $second_number is:"
   expr $first_number - $second_number
+  ;;
+  "Multiplication")
+  echo "You have selected 'Multiplication'"
+  echo "Please provide the first number:"
+  read first_number
+  echo "Please provide the second number:"
+  read second_number
+  echo "The product of $first_number and $second_number is:"
+  expr $first_number * $second_number
   ;;
   "Exit Calculator")
   echo "You have selected 'Exit Calculator'"
